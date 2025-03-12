@@ -1,0 +1,301 @@
+html, *, body {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; */
+
+}
+
+    html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+
+.card {
+    background-color: red;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: 60%;
+    background: url("https://img.freepik.com/premium-vector/vector-modern-abstract-background_535100-180.jpg") no-repeat center bottom;
+    background-size: 1300px;
+    
+    
+
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    height: 50px;
+    width: 20%;
+    margin-bottom: 25px;
+}
+
+.text-header {
+   display: flex;
+   justify-content: center;
+   font-family: 'poppins-extrabold', sans-serif;
+   font-weight: 400;
+   text-decoration: none;
+   font-size: 12px;
+
+
+
+}
+
+.text-header h1 {
+    font-weight: normal;
+}
+
+.main-utama {
+    margin-top: 90px;
+    
+}
+
+.kolom {
+    margin: 20px;
+    margin-left: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+span {
+    font-weight: 700;
+
+}
+
+/* UNTUK BUTTON */
+
+.btn {
+    background-color: rgb(21, 214, 21);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: auto;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* untuk footer */
+.footer1 {
+    margin-left: 200px;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    padding: 120px 0;
+    height: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 30px;
+}
+
+
+    
+
+.p-bawah1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    
+}
+
+#anakan1 {
+    font-size: 15px;
+   
+    font-style: italic;
+}
+
+.p-bawah2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.imgfoot{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.img3 {
+    width: 25%;
+ 
+}
+
+.p-bawah3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+    
+
+}
+
+
+/* UNTUK UKURAN HANDPHONE */
+
+@media screen and (min-width: 375px) and (max-width: 575px)
+{
+
+
+    .card {
+        margin: 20px auto;
+        padding: 2px;
+        background: white;
+        border-radius: 10px;
+        box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.2);
+        height: auto;
+        width: 90%;
+        background: url("https://img.freepik.com/premium-vector/vector-modern-abstract-background_535100-180.jpg") no-repeat center bottom;
+        background-size: 1200px;
+
+    }
+
+    .wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-header{
+        font-size: 10px;
+        justify-content: center;
+        width: 300px;
+        text-align: center;
+        margin-top: 10px;
+
+        
+
+
+    }
+    /* TEKS P DI KOLOM */
+
+    .kolom p {
+        font-size: 12px;
+    }
+
+    /* TEKS SPAN DI KOLOM */
+
+    .kolom span {
+        font-size: 15px;
+    }
+
+    .kolom {
+        margin: 20px;
+
+    }
+
+    .main-utama{
+        margin-top: 20px;
+    }
+
+
+    .img2 {
+        height: 30px;
+        width: 30%;
+        margin-bottom: 25px;
+    }
+
+    /* IMG FOOTER */
+
+    .imgfoot{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .img3 {
+        width: 60%;
+
+    }
+
+    .p-bawah1{
+        
+        width: 50%;
+    }
+
+    .p-bawah3{
+        width: 55%;
+    }
+}
+
+@media screen and (min-width:576px)and (max-width: 768px) 
+    {
+
+        .card {
+           margin: 10px auto;
+           width: 80%;
+           height: 50%;
+
+        }
+
+        .text-header{
+            font-size: 10px;
+            justify-content: center;
+            width: 400px;
+            text-align: center;
+            margin-top: 10px;
+
+        }
+
+        .main-utama{
+            margin-top: 60px;
+        }
+
+        .kolom{
+            margin-left: 30px;
+        }
+
+        .kolom p {
+            font-size: 15px;
+        }
+    
+        /* TEKS SPAN DI KOLOM */
+    
+        .kolom span {
+            font-size: 17px;
+        }
+
+        .imgfoot{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .img2 {
+            width: 50%;
+            margin-top: 30px;
+        }
+        
+        .img3 {
+            width: 50%;
+        }
+
+        .wrap {
+             display: flex;
+            justify-content: center;
+        }
+    
+
+    }
